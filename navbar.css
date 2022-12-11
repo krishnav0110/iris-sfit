@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    font-size: 1.1rem;
+    padding: 10px 100px;
+    background: linear-gradient(20deg, #1c1c36, #474781, #191935);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.navbar a:hover {
+    color: #27bdb5;
+}
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar a {
+        margin: 0 10px;
+    }
+}
