@@ -1,0 +1,38 @@
+.navbar {
+    font-size: 1.1rem;
+    padding: 10px 100px;
+    background: linear-gradient(20deg, #1c1c36, #474781, #191935);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #f1403a;
+}
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar a {
+        margin: 0 10px;
+    }
+}
