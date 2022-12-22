@@ -32,7 +32,15 @@
     .navbar {
         padding: 10px;
     }
-    .navbar a {
-        margin: 0 10px;
+    .navbar li {
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar li {
+        margin: 10px;
     }
 }
